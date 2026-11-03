@@ -1,18 +1,37 @@
-# Andrés Arteaga Ramos
+# Andrés Felipe Arteaga Ramos
 
-Hago APIs y productos web. El trabajo reciente está en salud digital, cobros y lenguas de la región.
+Licenciado en Informática, Universidad de Córdoba. Desarrollador de software.
+
+Colombia · [andresarteagaramos@gmail.com](mailto:andresarteagaramos@gmail.com) · Inglés B1
+
+Trabajo con TypeScript, C# y Python. El recorrido va de pagos y APIs a lenguas de la región, con servidores Linux, Postgres y despliegues en la nube.
 
 ## Experiencia
 
-**Salud.** Portal de Medicall24: sitio, compra de servicios, suscripciones para médicos y pagos con Wompi. El código es privado.
+**Líder de desarrollo · Hi Beauty**  
+oct 2025 — actualidad · presencial
 
-**Producto.** APIs que un negocio puede usar de verdad. Pedidos y cobros sin guardar la tarjeta. Limpieza de CSV por trabajos, con cola y créditos. Operación de una granja porcina: lotes, alimentación, sanidad, costos y ventas.
+Backend en NestJS y Redis para notificaciones por correo, WhatsApp, push y SMS. Integraciones de pago con Wompi, Treli, Rebill, PayPal y Stripe. AWS (S3 y EC2) y coordinación del equipo técnico.
 
-**Lenguas.** Traductor entre español y wayuunaiki, con emberá a la espera de corpus. Diccionario kogui, diccionario del Alto Sinú y San Jorge, y mapa sociolingüístico de Montería. Parte de ese trabajo salió en la Universidad de Córdoba.
+**Instructor full stack · Códica**  
+ago 2025 — actualidad · remoto
 
-## Con qué trabajo
+Formación en lógica, bases de datos, frontend, backend y despliegue.
 
-Rust, C# y TypeScript en el día a día. Python cuando el problema es un modelo o un servicio de datos. Postgres, SQLite, colas y pagos.
+**Desarrollador de software · IDEAS S.A.S**  
+jun 2024 — sep 2025 · remoto
+
+Sitios y comercios con React, Astro y Supabase. Tiendas en .NET con arquitectura limpia, SQL Server y Wompi. APIs en Express y mantenimiento de servidores.
+
+**Investigador · Grupo Lexicón, Universidad de Córdoba**  
+ene 2023 — feb 2024
+
+Traducción para emberá y wayuunaiki, diccionarios y el mapa sociolingüístico de Montería.
+
+**Desarrollador web · Medicall24 S.A.S**  
+ene 2022 — nov 2022 · presencial
+
+Comercio de planes, exámenes y consultas con React, TypeScript, Supabase y PostgreSQL. Pagos con Wompi y correos con SendGrid.
 
 ## Proyectos públicos
 
