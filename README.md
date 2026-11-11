@@ -1,4 +1,4 @@
-<img src="./banner.svg" alt="Andrés Arteaga Software Studio. Ideas claras. Software bien construido." width="100%">
+<img src="./banner.png" alt="Andrés Arteaga Software Studio. Ideas claras. Software bien construido." width="100%">
 
 # Andrés Arteaga Software Studio
 
