@@ -4,7 +4,7 @@
 
 **Ideas claras. Software bien construido.**
 
-Soy Andrés Arteaga, licenciado en Informática por la Universidad de Córdoba. Con el estudio desarrollo software, inteligencia artificial y automatización para emprendedores, negocios y empresas. La inteligencia artificial entra cuando aporta algo concreto al negocio. Si no hace falta, la solución sigue siendo software tradicional.
+Soy Andrés Arteaga, licenciado en Informática por la Universidad de Córdoba. Mi marca se centra en desarrollo software, inteligencia artificial y automatización para emprendedores, negocios y empresas. La inteligencia artificial entra cuando aporta algo concreto al negocio. Si no hace falta, la solución sigue siendo software tradicional.
 
 Licenciado en Informática · Inglés B1 · Montería, Colombia
 
