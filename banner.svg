@@ -1,10 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
-  <title id="title">Andrés Arteaga Software Studio</title>
-  <desc id="desc">Ideas claras. Software bien construido. Montería, Colombia.</desc>
-  <rect width="1200" height="460" fill="#111111"/>
-  <rect x="72" y="78" width="56" height="1" fill="#2563EB"/>
-  <text x="72" y="128" fill="#A1A1AA" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" letter-spacing="5">ANDRÉS ARTEAGA · SOFTWARE STUDIO</text>
-  <text x="72" y="230" fill="#FFFFFF" font-family="ui-sans-serif, system-ui, sans-serif" font-size="68" font-weight="700">Ideas claras.</text>
-  <text x="72" y="312" fill="#FFFFFF" font-family="ui-sans-serif, system-ui, sans-serif" font-size="68" font-weight="700">Software bien <tspan fill="#2563EB">construido.</tspan></text>
-  <text x="72" y="390" fill="#A1A1AA" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22">Software, inteligencia artificial y automatización · Montería</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title">
+  <title id="title">AndrÃ©s Arteaga Software Studio. Ideas claras. Software bien construido.</title>
+  <defs>
+    <linearGradient id="background">
+      <stop stop-color="#111111"/>
+      <stop offset=".58" stop-color="#111111"/>
+      <stop offset="1" stop-color="#101a30"/>
+    </linearGradient>
+    <linearGradient id="grid-fade">
+      <stop stop-color="white" stop-opacity="0"/>
+      <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <mask id="grid-mask">
+      <rect x="600" width="600" height="390" fill="url(#grid-fade)"/>
+    </mask>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#80a6ff" stroke-opacity=".17"/>
+    </pattern>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .signal {
+        animation: signal 2.4s ease-out;
+      }
+    }
+    @keyframes signal {
+      from { stroke-dashoffset: 420; opacity: 0; }
+      25% { opacity: 1; }
+      to { stroke-dashoffset: 0; opacity: 1; }
+    }
+  </style>
+
+  <rect width="1200" height="390" fill="url(#background)"/>
+  <rect x="600" width="600" height="390" fill="url(#grid)" mask="url(#grid-mask)"/>
+
+  <g fill="none" stroke-linejoin="round">
+    <path d="M846 88h90l56 56h154M846 302h90l56-56h154" stroke="#30456e" stroke-width="2"/>
+    <path d="M858 195h80l56-56h76l56 56-56 56h-76l-56-56" stroke="#273a62" stroke-width="6"/>
+    <path class="signal" d="M858 195h80l56-56h76l56 56-56 56h-76l-56-56" stroke="#6694ff" stroke-width="3" pathLength="420" stroke-dasharray="420"/>
+    <path d="m999 180-16 15 16 15m58-30 16 15-16 15m-21-34-15 38" stroke="#b8ceff" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g fill="#86aaff">
+    <circle cx="846" cy="88" r="4"/>
+    <circle cx="846" cy="302" r="4"/>
+    <circle cx="858" cy="195" r="6"/>
+    <circle cx="1126" cy="195" r="6"/>
+  </g>
+
+  <rect x="64" y="59" width="58" height="4" rx="2" fill="#6694ff"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="64" y="102" fill="#c2c7d3" font-size="20" font-weight="700" letter-spacing="3">ANDRÃ‰S ARTEAGA Â· SOFTWARE STUDIO</text>
+    <g fill="white" font-size="65" font-weight="700" letter-spacing="-2">
+      <text x="62" y="190">Ideas claras.</text>
+      <text x="62" y="264">Software bien <tspan fill="#86aaff">construido.</tspan></text>
+    </g>
+    <text x="64" y="329" fill="#c2c7d3" font-size="23">Software, inteligencia artificial y automatizaciÃ³n</text>
+  </g>
 </svg>
