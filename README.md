@@ -15,13 +15,15 @@ Soy desarrollador de software, instructor full stack en Códica y licenciado en 
 **Instructor full stack · Códica**  
 ago 2025 — actualidad · remoto
 
-Formación en lógica, bases de datos, frontend, backend y despliegue.
+Enseño a construir una aplicación de punta a punta: plantear la lógica, modelar los datos, implementar el backend, conectar la interfaz y desplegar el resultado.
 
 **Líder de desarrollo · Hi Beauty**
 
 noviembre de 2025 — 31 de diciembre de 2025 · presencial
 
-Backend en NestJS y Redis para notificaciones por correo, WhatsApp, push y SMS. Integraciones de pago con Wompi, Treli, Rebill, PayPal y Stripe. AWS (S3 y EC2) y coordinación del equipo técnico.
+- **Notificaciones.** Trabajé en el backend con NestJS y Redis para enviar notificaciones por correo, WhatsApp, push y SMS.
+- **Pagos.** Integré Wompi, Treli, Rebill, PayPal y Stripe en los flujos de cobro.
+- **Infraestructura y equipo.** Trabajé con EC2 y S3 en AWS y coordiné el trabajo del equipo técnico.
 
 <details>
 <summary>Ver experiencia anterior</summary>
@@ -29,17 +31,17 @@ Backend en NestJS y Redis para notificaciones por correo, WhatsApp, push y SMS. 
 **Desarrollador de software · IDEAS S.A.S**  
 jun 2024 — sep 2025 · remoto
 
-Sitios y comercios con React, Astro y Supabase. Tiendas en .NET con arquitectura limpia, SQL Server y Wompi. APIs en Express y mantenimiento de servidores.
+Desarrollé tiendas en .NET con arquitectura limpia. Separé las reglas de negocio y los casos de uso de la persistencia en SQL Server y de la integración con Wompi. También construí sitios con React, Astro y Supabase, desarrollé APIs en Express y mantuve servidores.
 
 **Investigador · Grupo Lexicón, Universidad de Córdoba**  
 ene 2023 — feb 2024
 
-Traducción para emberá y wayuunaiki, diccionarios y el mapa sociolingüístico de Montería.
+Desarrollé herramientas de traducción para emberá y wayuunaiki, diccionarios digitales y un mapa sociolingüístico de Montería. En el mapa, la interfaz combina las capas geográficas de las comunas con una API que entrega los términos de cada zona.
 
 **Desarrollador web · Medicall24 S.A.S**  
 ene 2022 — nov 2022 · presencial
 
-Comercio de planes, exámenes y consultas con React, TypeScript, Supabase y PostgreSQL. Pagos con Wompi y correos con SendGrid.
+Construí el flujo de compra de planes, exámenes y consultas con una interfaz en React y TypeScript y una capa de datos en Supabase sobre PostgreSQL. Integré Wompi para el cobro y SendGrid para las comunicaciones por correo.
 
 </details>
 
@@ -49,18 +51,57 @@ Comercio de planes, exámenes y consultas con React, TypeScript, Supabase y Post
 
 ### Datos, pagos y operaciones
 
-- **[processing-data-rust](https://github.com/AnDevArteaga/processing-data-rust)** — Motor en Rust para el procesamiento masivo de datos en CSV. Lee los archivos en streaming y usa una cola de trabajos para normalizar registros y eliminar duplicados.
-- **[Orders Platform](https://github.com/AnDevArteaga/orders-platform)** — API de pedidos y cobros concurrentes con Wompi. Verifica la firma y el monto de las notificaciones de pago antes de actualizar el pedido. El pago se realiza en Wompi.
-- **[Cerdital](https://github.com/AnDevArteaga/Cerdital-g-Backend)** — API en producción para operaciones. Gestiona lotes, alimentación, sanidad, pesajes, costos y ventas.
+**[processing-data-rust](https://github.com/AnDevArteaga/processing-data-rust)**
+
+Motor para procesar CSV masivos en streaming. El mismo núcleo de limpieza se ejecuta desde la línea de comandos o desde un worker. La API recibe los archivos y encola las tareas, y SQLite guarda el estado de los trabajos.
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/rust/rust-original.svg" width="20" height="20" alt=""> Rust · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/sqlite/sqlite-original.svg" width="20" height="20" alt=""> SQLite
+
+**[Orders Platform](https://github.com/AnDevArteaga/orders-platform)**
+
+API para gestionar pedidos y cobros concurrentes. Separa dominio, casos de uso, infraestructura y API HTTP. Verifica la firma y el importe del aviso de Wompi antes de actualizar el pedido y envía al comercio un webhook firmado.
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/csharp/csharp-original.svg" width="20" height="20" alt=""> C# · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/dotnetcore/dotnetcore-original.svg" width="20" height="20" alt=""> ASP.NET Core · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/sqlite/sqlite-original.svg" width="20" height="20" alt=""> SQLite
+
+**[Pasarela de pago multimétodo](https://github.com/AnDevArteaga/pasarela-de-pago-multi-metodos)**
+
+Checkout independiente para pagos únicos y suscripciones, con tarjeta, PSE, Nequi y botón Bancolombia a través de Wompi. La API valida el precio en su propia base PostgreSQL, verifica la firma del enlace de checkout y notifica el resultado al sistema de origen mediante webhooks. React y la API .NET 8 se despliegan juntos en Docker.
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/dotnetcore/dotnetcore-original.svg" width="20" height="20" alt=""> .NET 8 · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/react/react-original.svg" width="20" height="20" alt=""> React · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/typescript/typescript-original.svg" width="20" height="20" alt=""> TypeScript · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/postgresql/postgresql-original.svg" width="20" height="20" alt=""> PostgreSQL · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/docker/docker-original.svg" width="20" height="20" alt=""> Docker
+
+**[Cerdital](https://github.com/AnDevArteaga/Cerdital-g-Backend)**
+
+API en producción para operaciones. Gestiona lotes, alimentación, sanidad, pesajes, costos y ventas. Organiza el backend en rutas HTTP, servicios con reglas de negocio y repositorios de datos. Usa Redis como caché de consultas.
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/nodejs/nodejs-original.svg" width="20" height="20" alt=""> Node.js · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/typescript/typescript-original.svg" width="20" height="20" alt=""> TypeScript · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/postgresql/postgresql-original.svg" width="20" height="20" alt=""> PostgreSQL · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/redis/redis-original.svg" width="20" height="20" alt=""> Redis
 
 ### Inteligencia artificial aplicada a la traducción de lenguas nativas de Colombia
 
-- **[TranslateAlgorithm](https://github.com/AnDevArteaga/TranslateAlgorithm)** — Algoritmo de traducción entre español y wayuunaiki. Combina un diccionario con un modelo de IA que interviene cuando falta una palabra.
-- **[Traductor de lenguas nativas](https://github.com/AnDevArteaga/Traductor-Lenguas-Indigenas)** — Interfaz web para traducir wayuunaiki y emberá.
+**[TranslateAlgorithm](https://github.com/AnDevArteaga/TranslateAlgorithm)**
+
+Servicio de traducción entre español y wayuunaiki. Consulta primero el diccionario y, si falta una palabra, genera una propuesta con un modelo secuencia a secuencia entrenado en PyTorch. La API marca esas propuestas como aproximaciones.
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/python/python-original.svg" width="20" height="20" alt=""> Python · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/pytorch/pytorch-original.svg" width="20" height="20" alt=""> PyTorch · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/fastapi/fastapi-original.svg" width="20" height="20" alt=""> FastAPI
+
+**[Traductor de lenguas nativas](https://github.com/AnDevArteaga/Traductor-Lenguas-Indigenas)**
+
+Interfaz web que consulta el servicio de traducción y muestra los resultados en español o wayuunaiki.
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/vuejs/vuejs-original.svg" width="20" height="20" alt=""> Vue · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/vitejs/vitejs-original.svg" width="20" height="20" alt=""> Vite
 
 ### Otros proyectos de investigación
-- **[Mapa sociolingüístico](https://github.com/AnDevArteaga/Mapa-Sociolinguistico)** — Mapa interactivo de Montería.
-- **[Diccionario del Alto Sinú y San Jorge](https://github.com/AnDevArteaga/diccionario-electrnico)** — Diccionario electrónico de la región.
+
+**[Mapa sociolingüístico](https://github.com/AnDevArteaga/Mapa-Sociolinguistico)**
+
+Mapa interactivo de Montería que combina capas geográficas con términos lingüísticos por comuna.
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/nextjs/nextjs-original.svg" width="20" height="20" alt=""> Next.js · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/typescript/typescript-original.svg" width="20" height="20" alt=""> TypeScript · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/tailwindcss/tailwindcss-original.svg" width="20" height="20" alt=""> Tailwind CSS
+
+**[Diccionario del Alto Sinú y San Jorge](https://github.com/AnDevArteaga/diccionario-electrnico)**
+
+Diccionario digital para consultar el léxico del Alto Sinú y San Jorge.
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/nextjs/nextjs-original.svg" width="20" height="20" alt=""> Next.js · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/typescript/typescript-original.svg" width="20" height="20" alt=""> TypeScript · <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/tailwindcss/tailwindcss-original.svg" width="20" height="20" alt=""> Tailwind CSS
 
 ## Stack
 

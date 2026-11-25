@@ -45,7 +45,7 @@
         <path d="M224 66h95m-80 22h23m66-11h71m-9-9 9 9-9 9"/>
       </g>
       <text x="23" y="179" fill="#f5f8ff" font-size="32" font-weight="700">Concurrencia de pagos</text>
-      <text x="23" y="215" fill="currentColor" font-size="23">Pedidos · Cobros con Wompi</text>
+      <text x="23" y="215" fill="currentColor" font-size="23">Pagos</text>
     </g>
 
     <g transform="translate(0 262)" color="#f8c277">
