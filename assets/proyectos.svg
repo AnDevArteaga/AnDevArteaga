@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="504" viewBox="0 0 960 504" role="img" aria-labelledby="title desc">
   <title id="title">Proyectos públicos de Andrés Arteaga</title>
-  <desc id="desc">Procesamiento masivo de datos, concurrencia de pagos, operación porcina e inteligencia artificial aplicada a la traducción de lenguas nativas de Colombia.</desc>
+  <desc id="desc">Procesamiento masivo de datos, concurrencia de pagos, operaciones e inteligencia artificial aplicada a la traducción de lenguas nativas de Colombia.</desc>
   <defs>
     <linearGradient id="panel" x2="100%" y2="100%">
       <stop stop-color="#17263b"/>
@@ -58,7 +58,7 @@
         <path d="M229 92l23-14 18 7 28-14 16 6 24-17 27 7"/>
         <circle cx="365" cy="67" r="4" fill="currentColor"/>
       </g>
-      <text x="23" y="179" fill="#f5f8ff" font-size="32" font-weight="700">Operación porcina</text>
+      <text x="23" y="179" fill="#f5f8ff" font-size="32" font-weight="700">Operaciones</text>
       <text x="23" y="215" fill="currentColor" font-size="23">Cerdital · API en producción</text>
     </g>
 

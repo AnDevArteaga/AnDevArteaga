@@ -45,13 +45,13 @@ Comercio de planes, exámenes y consultas con React, TypeScript, Supabase y Post
 
 ## Proyectos públicos
 
-<img src="./assets/proyectos.svg" alt="Cuatro proyectos destacados: procesamiento masivo de datos, concurrencia de pagos, operación porcina e inteligencia artificial aplicada a la traducción de lenguas nativas de Colombia." width="100%">
+<img src="./assets/proyectos.svg" alt="Cuatro proyectos destacados: procesamiento masivo de datos, concurrencia de pagos, operaciones e inteligencia artificial aplicada a la traducción de lenguas nativas de Colombia." width="100%">
 
-### Datos, pagos y operación porcina
+### Datos, pagos y operaciones
 
 - **[processing-data-rust](https://github.com/AnDevArteaga/processing-data-rust)** — Motor en Rust para el procesamiento masivo de datos en CSV. Lee los archivos en streaming y usa una cola de trabajos para normalizar registros y eliminar duplicados.
 - **[Orders Platform](https://github.com/AnDevArteaga/orders-platform)** — API de pedidos y cobros concurrentes con Wompi. Verifica la firma y el monto de las notificaciones de pago antes de actualizar el pedido. El pago se realiza en Wompi.
-- **[Cerdital](https://github.com/AnDevArteaga/Cerdital-g-Backend)** — API en producción para operaciones del sector porcino. Gestiona lotes, alimentación, sanidad, pesajes, costos y ventas.
+- **[Cerdital](https://github.com/AnDevArteaga/Cerdital-g-Backend)** — API en producción para operaciones. Gestiona lotes, alimentación, sanidad, pesajes, costos y ventas.
 
 ### Inteligencia artificial aplicada a la traducción de lenguas nativas de Colombia
 
