@@ -1,8 +1,8 @@
-<img src="./assets/perfil.svg" alt="Andrés Arteaga Ramos. Líder de desarrollo e instructor full stack en Montería, Colombia." width="100%">
+<img src="./assets/perfil.svg" alt="Andrés Arteaga Ramos. Desarrollador de software e instructor full stack en Códica. Montería, Colombia." width="100%">
 
 # Andrés Arteaga Ramos
 
-Soy desarrollador de software y licenciado en Informática por la Universidad de Córdoba. Lidero el desarrollo de servicios backend e integraciones de pago en Hi Beauty y enseño desarrollo full stack en Códica. También he trabajado en herramientas de traducción y cartografía para lenguas indígenas.
+Soy desarrollador de software, instructor full stack en Códica y licenciado en Informática por la Universidad de Córdoba. Construyo APIs, integro sistemas de pago y desarrollo herramientas para procesar datos. También he trabajado en algoritmos de traducción asistidos por IA para lenguas nativas de Colombia.
 
 **Montería, Colombia** · Inglés B1 · **[Portafolio profesional ↗](https://software-studio-tau.vercel.app/portafolio)**
 
@@ -10,17 +10,18 @@ Soy desarrollador de software y licenciado en Informática por la Universidad de
 
 ## Experiencia
 
-<img src="./assets/trayectoria.svg" alt="Trayectoria desde 2022 en Medicall24, Universidad de Córdoba, IDEAS S.A.S., Códica y Hi Beauty. Los cargos de Códica y Hi Beauty se superponen desde 2025." width="100%">
-
-**Líder de desarrollo · Hi Beauty**  
-oct 2025 — actualidad · presencial
-
-Backend en NestJS y Redis para notificaciones por correo, WhatsApp, push y SMS. Integraciones de pago con Wompi, Treli, Rebill, PayPal y Stripe. AWS (S3 y EC2) y coordinación del equipo técnico.
+<img src="./assets/trayectoria.svg" alt="Trayectoria desde 2022. Códica desde agosto de 2025, Hi Beauty de noviembre al 31 de diciembre de 2025, y experiencia anterior en Medicall24, Universidad de Córdoba e IDEAS S.A.S." width="100%">
 
 **Instructor full stack · Códica**  
 ago 2025 — actualidad · remoto
 
 Formación en lógica, bases de datos, frontend, backend y despliegue.
+
+**Líder de desarrollo · Hi Beauty**
+
+noviembre de 2025 — 31 de diciembre de 2025 · presencial
+
+Backend en NestJS y Redis para notificaciones por correo, WhatsApp, push y SMS. Integraciones de pago con Wompi, Treli, Rebill, PayPal y Stripe. AWS (S3 y EC2) y coordinación del equipo técnico.
 
 <details>
 <summary>Ver experiencia anterior</summary>
@@ -44,18 +45,20 @@ Comercio de planes, exámenes y consultas con React, TypeScript, Supabase y Post
 
 ## Proyectos públicos
 
-<img src="./assets/proyectos.svg" alt="Proyectos de pedidos, pagos y datos, y de lenguas indígenas y territorio." width="100%">
+<img src="./assets/proyectos.svg" alt="Cuatro proyectos destacados: procesamiento masivo de datos, concurrencia de pagos, operación porcina e inteligencia artificial aplicada a la traducción de lenguas nativas de Colombia." width="100%">
 
-### Pedidos, pagos y datos
+### Datos, pagos y operación porcina
 
-- **[Orders Platform](https://github.com/AnDevArteaga/orders-platform)** — Plataforma de pedidos y cobros con Wompi. La tienda evita almacenar los datos de las tarjetas.
-- **[processing-data-rust](https://github.com/AnDevArteaga/processing-data-rust)** — Limpieza de archivos CSV en Rust mediante una cola de trabajos y un sistema de créditos.
-- **[Cerdital](https://github.com/AnDevArteaga/Cerdital-g-Backend)** — API para gestionar lotes, alimentación, sanidad, costos y ventas de una granja.
+- **[processing-data-rust](https://github.com/AnDevArteaga/processing-data-rust)** — Motor en Rust para el procesamiento masivo de datos en CSV. Lee los archivos en streaming y usa una cola de trabajos para normalizar registros y eliminar duplicados.
+- **[Orders Platform](https://github.com/AnDevArteaga/orders-platform)** — API de pedidos y cobros concurrentes con Wompi. Verifica la firma y el monto de las notificaciones de pago antes de actualizar el pedido. El pago se realiza en Wompi.
+- **[Cerdital](https://github.com/AnDevArteaga/Cerdital-g-Backend)** — API en producción para operaciones del sector porcino. Gestiona lotes, alimentación, sanidad, pesajes, costos y ventas.
 
-### Lenguas indígenas y territorio
+### Inteligencia artificial aplicada a la traducción de lenguas nativas de Colombia
 
-- **[TranslateAlgorithm](https://github.com/AnDevArteaga/TranslateAlgorithm)** — Traducción entre español y wayuunaiki. Consulta primero el diccionario y recurre al modelo cuando falta una palabra.
-- **[Traductor de lenguas indígenas](https://github.com/AnDevArteaga/Traductor-Lenguas-Indigenas)** — Interfaz web del traductor para wayuunaiki y emberá.
+- **[TranslateAlgorithm](https://github.com/AnDevArteaga/TranslateAlgorithm)** — Algoritmo de traducción entre español y wayuunaiki. Combina un diccionario con un modelo de IA que interviene cuando falta una palabra.
+- **[Traductor de lenguas nativas](https://github.com/AnDevArteaga/Traductor-Lenguas-Indigenas)** — Interfaz web para traducir wayuunaiki y emberá.
+
+### Otros proyectos de investigación
 - **[Mapa sociolingüístico](https://github.com/AnDevArteaga/Mapa-Sociolinguistico)** — Mapa interactivo de Montería.
 - **[Diccionario del Alto Sinú y San Jorge](https://github.com/AnDevArteaga/diccionario-electrnico)** — Diccionario electrónico de la región.
 

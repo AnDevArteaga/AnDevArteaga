@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
   <title id="title">Trayectoria profesional de 2022 a 2026</title>
-  <desc id="desc">Medicall24 en 2022, Universidad de Córdoba de 2023 a 2024, IDEAS S.A.S de 2024 a 2025, y Códica y Hi Beauty desde 2025.</desc>
+  <desc id="desc">Medicall24 en 2022, Universidad de Córdoba de 2023 a 2024, IDEAS S.A.S de 2024 a 2025, Códica desde agosto de 2025 y Hi Beauty de noviembre al 31 de diciembre de 2025.</desc>
   <rect width="960" height="320" rx="20" fill="#121a28"/>
   <g font-family="Arial, Helvetica, sans-serif">
     <text x="30" y="44" font-size="25" font-weight="700" fill="#f2f6ff">Trayectoria profesional</text>
@@ -25,7 +25,7 @@
     <path d="M390 151h154" stroke="#a3acff"/>
     <path d="M577 188h176" stroke="#739bff"/>
     <path d="M731 225h169" stroke="#79e4df"/>
-    <path d="M753 262h147" stroke="#79e4df"/>
+    <path d="M764 262h22" stroke="#739bff" stroke-linecap="butt"/>
   </g>
-  <path d="m897 215 15 10-15 10zm0 37 15 10-15 10z" fill="#79e4df"/>
+  <path d="m897 215 15 10-15 10z" fill="#79e4df"/>
 </svg>

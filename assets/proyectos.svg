@@ -1,36 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="244" viewBox="0 0 960 244" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="504" viewBox="0 0 960 504" role="img" aria-labelledby="title desc">
   <title id="title">Proyectos públicos de Andrés Arteaga</title>
-  <desc id="desc">Dos áreas de trabajo: pedidos, pagos y datos, y lenguas indígenas y territorio.</desc>
+  <desc id="desc">Procesamiento masivo de datos, concurrencia de pagos, operación porcina e inteligencia artificial aplicada a la traducción de lenguas nativas de Colombia.</desc>
   <defs>
-    <linearGradient id="systems" x2="1" y2="1">
-      <stop stop-color="#142643"/>
-      <stop offset="1" stop-color="#111a2a"/>
+    <linearGradient id="panel" x2="100%" y2="100%">
+      <stop stop-color="#17263b"/>
+      <stop offset="1" stop-color="#0f1725"/>
     </linearGradient>
-    <linearGradient id="languages" x2="1" y2="1">
-      <stop stop-color="#142c32"/>
-      <stop offset="1" stop-color="#111c26"/>
-    </linearGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0V22" fill="none" stroke="#a6beef" stroke-opacity=".1"/>
+    </pattern>
+    <g id="card">
+      <rect x=".5" y=".5" width="469" height="241" rx="21" fill="url(#panel)" stroke="currentColor" stroke-opacity=".38"/>
+      <rect x="23" y="21" width="424" height="112" rx="12" fill="#0e1728"/>
+      <rect x="23" y="21" width="424" height="112" rx="12" fill="url(#grid)"/>
+    </g>
   </defs>
-  <rect width="470" height="244" rx="20" fill="url(#systems)"/>
-  <rect x="490" width="470" height="244" rx="20" fill="url(#languages)"/>
-  <g fill="none" stroke="#8babff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="34" y="37" width="92" height="57" rx="9"/>
-    <path d="M34 54h92M47 75h21m9 0h18m44-9h62m-10-10 10 10-10 10"/>
-    <ellipse cx="254" cy="50" rx="36" ry="13"/>
-    <path d="M218 50v35c0 7 16 13 36 13s36-6 36-13V50m-72 17c0 7 16 13 36 13s36-6 36-13"/>
-    <path d="M304 66h113" stroke-opacity=".28" stroke-dasharray="3 9"/>
-    <circle cx="417" cy="66" r="4" fill="#8babff"/>
-  </g>
-  <g fill="none" stroke="#80ddce" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M528 41h73a10 10 0 0 1 10 10v28a10 10 0 0 1-10 10h-30l-15 11V89h-28a10 10 0 0 1-10-10V51a10 10 0 0 1 10-10Z"/>
-    <path d="M536 60h56m-56 12h33m58-5h92m-12-10 12 10-12 10"/>
-    <path d="m743 49 41-13 40 13 41-13v51l-41 13-40-13-41 13Zm41-13v51m40-38v51"/>
-    <circle cx="804" cy="66" r="5" fill="#80ddce"/>
-  </g>
+
   <g font-family="Arial, Helvetica, sans-serif">
-    <text x="34" y="160" fill="#f0f5ff" font-size="32" font-weight="700">Pedidos, pagos y datos</text>
-    <text x="34" y="202" fill="#b4c8eb" font-size="23">Comercio · CSV · Operación agrícola</text>
-    <text x="518" y="160" fill="#eef9f6" font-size="32" font-weight="700">Lenguas y territorio</text>
-    <text x="518" y="202" fill="#b2d9d4" font-size="23">Wayuunaiki · Emberá · Montería</text>
+    <g color="#69e8db">
+      <use href="#card"/>
+      <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M65 43h50l15 15v53H65zM115 43v15h15M77 70h39M77 82h39M77 94h39" fill="#143041"/>
+        <path d="M143 56h52l31 21h39m-122 0h122m-122 21h52l31-21" stroke-opacity=".75"/>
+        <rect x="269" y="52" width="108" height="50" rx="9" fill="#13403e"/>
+        <path d="m300 77 13 13 25-26m39 13h37m-8-8 8 8-8 8"/>
+      </g>
+      <g fill="currentColor">
+        <circle cx="151" cy="56" r="4"/>
+        <circle cx="174" cy="77" r="4"/>
+        <circle cx="190" cy="98" r="4"/>
+      </g>
+      <text x="23" y="179" fill="#f5f8ff" font-size="32" font-weight="700">Procesamiento masivo</text>
+      <text x="23" y="215" fill="currentColor" font-size="23">CSV en streaming · Rust</text>
+    </g>
+
+    <g transform="translate(490)" color="#9eb4ff">
+      <use href="#card"/>
+      <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M77 47h55l58 30h34M77 77h147M77 107h55l58-30" stroke-opacity=".75"/>
+        <circle cx="67" cy="47" r="9" fill="#263457"/>
+        <circle cx="67" cy="77" r="9" fill="#263457"/>
+        <circle cx="67" cy="107" r="9" fill="#263457"/>
+        <rect x="224" y="49" width="95" height="56" rx="10" fill="#273655"/>
+        <path d="M224 66h95m-80 22h23m66-11h71m-9-9 9 9-9 9"/>
+      </g>
+      <text x="23" y="179" fill="#f5f8ff" font-size="32" font-weight="700">Concurrencia de pagos</text>
+      <text x="23" y="215" fill="currentColor" font-size="23">Pedidos · Cobros con Wompi</text>
+    </g>
+
+    <g transform="translate(0 262)" color="#f8c277">
+      <use href="#card"/>
+      <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M64 60l34-20 34 20v49H64zM80 109V80h36v29m-50-45h64" fill="#392c26"/>
+        <path d="M146 77h51m-9-8 9 8-9 8" stroke-opacity=".75"/>
+        <rect x="208" y="44" width="182" height="66" rx="10" fill="#302826"/>
+        <path d="M226 63h145m-145 24h145" stroke-opacity=".35"/>
+        <path d="M229 92l23-14 18 7 28-14 16 6 24-17 27 7"/>
+        <circle cx="365" cy="67" r="4" fill="currentColor"/>
+      </g>
+      <text x="23" y="179" fill="#f5f8ff" font-size="32" font-weight="700">Operación porcina</text>
+      <text x="23" y="215" fill="currentColor" font-size="23">Cerdital · API en producción</text>
+    </g>
+
+    <g transform="translate(490 262)" color="#dfa9ff">
+      <use href="#card"/>
+      <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M58 48h86a8 8 0 0 1 8 8v34a8 8 0 0 1-8 8h-44l-15 12V98H58a8 8 0 0 1-8-8V56a8 8 0 0 1 8-8Z" fill="#352647"/>
+        <path d="M172 76h33m62 0h39" stroke-opacity=".75"/>
+        <path d="M236 48c4 18 10 24 28 28-18 4-24 10-28 28-4-18-10-24-28-28 18-4 24-10 28-28Z" fill="#402953"/>
+        <path d="M327 48h85a8 8 0 0 1 8 8v34a8 8 0 0 1-8 8h-26v12l-15-12h-44a8 8 0 0 1-8-8V56a8 8 0 0 1 8-8Z" fill="#352647"/>
+        <path d="M340 66h59m-59 13h41"/>
+      </g>
+      <text x="101" y="81" fill="currentColor" font-size="23" font-weight="700" text-anchor="middle">ES</text>
+      <text x="23" y="179" fill="#f5f8ff" font-size="32" font-weight="700">Traducción con IA</text>
+      <text x="23" y="215" fill="currentColor" font-size="23">Lenguas nativas de Colombia</text>
+    </g>
   </g>
 </svg>
