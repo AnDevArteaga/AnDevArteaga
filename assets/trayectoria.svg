@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
+  <title id="title">Trayectoria profesional de 2022 a 2026</title>
+  <desc id="desc">Medicall24 en 2022, Universidad de Córdoba de 2023 a 2024, IDEAS S.A.S de 2024 a 2025, y Códica y Hi Beauty desde 2025.</desc>
+  <rect width="960" height="320" rx="20" fill="#121a28"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="30" y="44" font-size="25" font-weight="700" fill="#f2f6ff">Trayectoria profesional</text>
+    <g fill="#aebcd5" font-size="20">
+      <text x="258" y="82">2022</text>
+      <text x="390" y="82">2023</text>
+      <text x="522" y="82">2024</text>
+      <text x="654" y="82">2025</text>
+      <text x="786" y="82">2026</text>
+    </g>
+    <path d="M258 92v192m132-192v192m132-192v192m132-192v192m132-192v192m132-192v192" stroke="#34425c"/>
+    <g fill="#d8e3f6" font-size="22">
+      <text x="30" y="122">Medicall24</text>
+      <text x="30" y="159">Universidad de Córdoba</text>
+      <text x="30" y="196">IDEAS S.A.S.</text>
+      <text x="30" y="233">Códica</text>
+      <text x="30" y="270">Hi Beauty</text>
+    </g>
+  </g>
+  <g fill="none" stroke-width="12" stroke-linecap="round">
+    <path d="M258 114h121" stroke="#739bff"/>
+    <path d="M390 151h154" stroke="#a3acff"/>
+    <path d="M577 188h176" stroke="#739bff"/>
+    <path d="M731 225h169" stroke="#79e4df"/>
+    <path d="M753 262h147" stroke="#79e4df"/>
+  </g>
+  <path d="m897 215 15 10-15 10zm0 37 15 10-15 10z" fill="#79e4df"/>
+</svg>

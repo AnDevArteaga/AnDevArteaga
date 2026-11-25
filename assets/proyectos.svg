@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="244" viewBox="0 0 960 244" role="img" aria-labelledby="title desc">
+  <title id="title">Proyectos públicos de Andrés Arteaga</title>
+  <desc id="desc">Dos áreas de trabajo: pedidos, pagos y datos, y lenguas indígenas y territorio.</desc>
+  <defs>
+    <linearGradient id="systems" x2="1" y2="1">
+      <stop stop-color="#142643"/>
+      <stop offset="1" stop-color="#111a2a"/>
+    </linearGradient>
+    <linearGradient id="languages" x2="1" y2="1">
+      <stop stop-color="#142c32"/>
+      <stop offset="1" stop-color="#111c26"/>
+    </linearGradient>
+  </defs>
+  <rect width="470" height="244" rx="20" fill="url(#systems)"/>
+  <rect x="490" width="470" height="244" rx="20" fill="url(#languages)"/>
+  <g fill="none" stroke="#8babff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="34" y="37" width="92" height="57" rx="9"/>
+    <path d="M34 54h92M47 75h21m9 0h18m44-9h62m-10-10 10 10-10 10"/>
+    <ellipse cx="254" cy="50" rx="36" ry="13"/>
+    <path d="M218 50v35c0 7 16 13 36 13s36-6 36-13V50m-72 17c0 7 16 13 36 13s36-6 36-13"/>
+    <path d="M304 66h113" stroke-opacity=".28" stroke-dasharray="3 9"/>
+    <circle cx="417" cy="66" r="4" fill="#8babff"/>
+  </g>
+  <g fill="none" stroke="#80ddce" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M528 41h73a10 10 0 0 1 10 10v28a10 10 0 0 1-10 10h-30l-15 11V89h-28a10 10 0 0 1-10-10V51a10 10 0 0 1 10-10Z"/>
+    <path d="M536 60h56m-56 12h33m58-5h92m-12-10 12 10-12 10"/>
+    <path d="m743 49 41-13 40 13 41-13v51l-41 13-40-13-41 13Zm41-13v51m40-38v51"/>
+    <circle cx="804" cy="66" r="5" fill="#80ddce"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="34" y="160" fill="#f0f5ff" font-size="32" font-weight="700">Pedidos, pagos y datos</text>
+    <text x="34" y="202" fill="#b4c8eb" font-size="23">Comercio · CSV · Operación agrícola</text>
+    <text x="518" y="160" fill="#eef9f6" font-size="32" font-weight="700">Lenguas y territorio</text>
+    <text x="518" y="202" fill="#b2d9d4" font-size="23">Wayuunaiki · Emberá · Montería</text>
+  </g>
+</svg>
